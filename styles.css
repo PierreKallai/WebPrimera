@@ -103,3 +103,58 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
 }
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    background: #eee;
+}
+
+.hidden {
+    background: #ccc;
+}
+
+.mine {
+    background: #ff0000;
+}
+
+.flagged {
+    background: #yellow;
+}
+
+.n1 { color: blue; }
+.n2 { color: green; }
+.n3 { color: red; }
+.n4 { color: darkblue; }
+.n5 { color: darkred; }
+.n6 { color: cyan; }
+.n7 { color: black; }
+.n8 { color: gray; }
+
+#flag-button.active {
+    background: #yellow;
+}
+
+#game-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#controls {
+    margin-bottom: 10px;
+}
+
+#controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+#minesweeper {
+    display: inline-block;
+    margin: 0 auto;
+}
